@@ -1,0 +1,29 @@
+body {
+  margin: 40px;
+}
+
+h1 {
+  font-family: 'Permanent Marker', cursive;
+}
+
+section {
+  width: 500px;
+  margin: auto;
+}
+
+.panel-heading {
+  font-weight: bold;
+}
+
+.table__note {
+  width: 90%;
+}
+
+.table__id {
+  width: 35px;
+}
+
+.table__body {
+  font-family: cursive; 
+}
+

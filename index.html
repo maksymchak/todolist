@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>To-Do List</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Cookie|Permanent+Marker" rel="stylesheet">
+  <link rel="stylesheet" href="css/todo.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="js/todo.js"></script>
+</head>
+<body>
+
+<section>
+  <div class="page-header">
+      <h1>My To-Do List</h1>
+  </div>
+
+  <section>
+      <form action="#" name="new-task" class="task-form">
+          <div class="panel panel-primary">
+              <div class="panel-heading">Add task:</div>
+              <div class="panel-body">
+                  <input type="text" name="task" class="task-form__text"/>
+                  <input type="submit" value="Add" class="btn btn-primary"/>
+              </div>
+          </div>
+      </form>
+  </section>
+
+  <table class="table table-striped">
+      <thead>
+          <tr>
+              <th class="table__id">#</th>
+              <th class="table__note">Tasks</th>
+              <th>&nbsp;</th>
+              <th>&nbsp;</th>
+          </tr>
+      </thead>
+      <tbody class="table__body">
+          <tr>
+              <th>1</th>
+              <td>Text</td>
+              <td></td>
+              <td><button type="button" class="btn btn-danger">&#967;</button></td>
+          </tr>
+      </tbody>
+  </table>
+</section>
+
+</body>
+</html>
